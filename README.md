@@ -6,3 +6,4 @@ copy program.cs file
 change the name of namespace according to ur environment.
 run
 may have to change the adb commands according to your own environment.
+100% smooth capture result.
