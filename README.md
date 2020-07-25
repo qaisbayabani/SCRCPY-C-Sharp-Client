@@ -1,3 +1,5 @@
+CREATEAED IN RSPONSE OF DEBATE AT https://github.com/Genymobile/scrcpy/issues/1073
+
 No jumbeled classes and files liabriries just a simple program.cs file.
 
 # SCRCPY-C-Sharp-Client
