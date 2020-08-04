@@ -17,7 +17,7 @@ server port opening
 
 reading server received data and forwarding the stream to other port.
 
-opencv capture from network stream and disply H264 stream from android screen capture.
+opencv capture from network stream and decode H264 stream from android screen capture.
 cross plateform stuff.
 enjoy
 
