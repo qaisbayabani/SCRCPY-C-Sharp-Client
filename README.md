@@ -5,6 +5,7 @@ No jumbeled classes and files liabriries just a simple program.cs file.
 # SCRCPY-C-Sharp-Client
 https://github.com/qaisbayabani/SCRCPY-C-Sharp-Client
 
+
 it covers.
 
 multithreading
@@ -35,3 +36,5 @@ run
 
 may have to change the adb commands according to your own environment.
 100% smooth capture result.
+
+#ATLEAST LEAVE ANY COMMENTS
