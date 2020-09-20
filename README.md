@@ -37,4 +37,4 @@ run
 may have to change the adb commands according to your own environment.
 100% smooth capture result.
 
-#ATLEAST LEAVE ANY COMMENTS
+# THIS REPO WILL BE CLOSED SOON.
