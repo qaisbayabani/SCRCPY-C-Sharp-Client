@@ -37,4 +37,8 @@ run
 may have to change the adb commands according to your own environment.
 100% smooth capture result.
 
+Subscribe and View my Channel plz.
+
+https://www.youtube.com/results?search_query=qaisbayabanni
+
 # THIS REPO WILL BE CLOSED SOON.
