@@ -22,7 +22,7 @@ opencv capture from network stream and decode H264 stream from android screen ca
 cross plateform stuff.
 enjoy
 
-install nuget package opencv sharp and opencv runtime from visual studio 2019 cummunity at my side.
+install nuget package opencv sharp and opencv runtime from visual studio (2019 cummunity at my side).
 
 download scrcpy-server-v1.1.12 from https://github.com/Genymobile/scrcpy/releases and rename it as scrcpy-server put in your visual studio projects bin/debug
 
