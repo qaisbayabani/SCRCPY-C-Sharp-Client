@@ -41,4 +41,5 @@ Subscribe and View my Channel plz.
 
 https://www.youtube.com/results?search_query=qaisbayabanni
 
-# THIS REPO WILL BE CLOSED SOON.
+# soon i b uploading an emgu solution 100% working face detection/recognition with a simple solution in C# Forms without consuming 100% of your CPU.  that will cover 
+Many subjects as this example covers a range of solutions. but if i get subscribers on above channel and viewing hours enough. simply a way to donate to my warehouse 
