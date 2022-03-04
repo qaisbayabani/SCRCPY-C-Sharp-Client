@@ -1,5 +1,10 @@
 CREATEAED IN RSPONSE OF DEBATE AT https://github.com/Genymobile/scrcpy/issues/1073
 
+Subscribe and View my Channel to say thanks and get more........:)
+
+https://www.youtube.com/results?search_query=qaisbayabanni
+
+
 No jumbeled classes and files liabriries just a simple program.cs file.
 
 # SCRCPY-C-Sharp-Client
