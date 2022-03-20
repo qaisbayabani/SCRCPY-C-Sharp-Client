@@ -1,9 +1,15 @@
-CREATEAED IN RSPONSE OF DEBATE AT https://github.com/Genymobile/scrcpy/issues/1073
+ON 20-03-2022 # CONGRAGULATIONS THAT I HAVE DECIDED TO KILL THE SCRCPY FOR MEAR MIRRORING WE DONT NEED HIM ANY MORE I HAVE WRITTEN MY OWN SERVER UPLOADED AS APP-DEBUG.APK AND U CAN SIMPLY DOWN LOAD INSTAL/DEBUG TO STEAL MY CODE ETC TO SIMPLY MIRROR YOUR PHONE SCREEN TO PC.
+
+#THE CLIENT SOFTWARE FOR PC WILL BE AVAILABLE TOMORROW.
+
+#THIS CLIENT AND SERVER SYSTEM DOES NOT NEED ADB COMMANDS.
+
+
+OLD POST CREATEAED IN RSPONSE OF DEBATE AT https://github.com/Genymobile/scrcpy/issues/1073
 
 Subscribe and View my Channel to say thanks and get more........:)
 
 https://www.youtube.com/results?search_query=qaisbayabanni
-
 
 No jumbeled classes and files liabriries just a simple program.cs file.
 
@@ -47,3 +53,16 @@ Subscribe and View my Channel plz.
 https://www.youtube.com/results?search_query=qaisbayabanni
 
 # New Version of scrcpy client will serve no disconnection and smooth mirroring Coming soon
+
+
+
+
+
+# CONGRAGULATIONS THAT I HAVE DECIDED TO KILL THE SCRCPY FOR MEAR MIRRORING WE DONT NEED HIM ANY MORE I HAVE WRITTEN MY OWN SERVER UPLOADED AS APP-DEBUG.APK AND U CAN SIMPLY DOWN LOAD INSTAL/DEBUG TO STEAL MY CODE ETC TO SIMPLY MIRROR YOUR PHONE SCREEN TO PC.
+
+#THE CLIENT SOFTWARE FOR PC WILL BE AVAILABLE TOMORROW.
+
+THIS CLIENT AND SERVER SYSTEM DOES NOT NEED ADB COMMANDS ANYMORE. 
+
+
+
