@@ -320,7 +320,7 @@ class Program
 
         VideoCapture capture = null;
 
-        capture = new VideoCapture("http://127.0.0.1:27184");
+        capture = new VideoCapture("tcp://127.0.0.1:27184");
 
         int sleepTime = (int)Math.Round(1000/ capture.Fps);
 
