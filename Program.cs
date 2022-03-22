@@ -111,13 +111,13 @@ class Program
             Console.WriteLine(process.StandardError.ReadToEnd());
             process.Close(); process.Dispose();
 
-            process = new Process();
+                       process = new Process();
             ps.FileName = "adb.exe ";
-            ps.Arguments = "shell " + "CLASSPATH=/data/local/tmp/scrcpy-server.jar " +
+            ps.Arguments = "shell " + "CLASSPATH=/data/local/tmp/scrcpy-server " +
          "app_process " + "/ " + "com.genymobile.scrcpy.Server " +
-        "1.12.1 " + "1024 " + "8000000 " + "0 " + "false " + "- " + "false " + "false";
+        "1.12.1 " + "512 " + "8000000 " + "0 " + "false " + "- " + "false " + "false";
             process.StartInfo = ps; process.Start();
-            Console.`WriteLine(process.StandardError.ReadToEnd());
+            Console.WriteLine(process.StandardError.ReadToEnd());
             Console.WriteLine(process.StandardOutput.ReadToEnd());
             Console.WriteLine(process.StandardOutput.ReadToEnd());
             process.WaitForExit(); process.Close(); process.Dispose();
