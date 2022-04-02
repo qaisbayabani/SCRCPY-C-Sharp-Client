@@ -1,6 +1,6 @@
 # https://github.com/qaisbayabani?tab=repositories
 
-#POSTED ON 4.02.2022 I DECIDED TO UPDATE PROGRAM.CS FOR SCRCPY SCREEN STREAM AS PROMISED A FLAWLESS VERSION WITH NO DISCONNECTION AS WHILE(CLIENT.CONNECTED) IS ADDED AT THE LOOP TO RECEIVE BUFFERS AND CV2.IMSHOW IS ALSO IS ADDED INSTEAD OF default window used to show image in previous version. hope u will star fork and subscribe my youtube channel as 100s are visiting but 14 stars 11 forks and 0 subscriber and viewing hours on youtube channel in response of my repositories.
+#POSTED ON 02.04.2022 I DECIDED TO UPDATE PROGRAM.CS FOR SCRCPY SCREEN STREAM AS PROMISED A FLAWLESS VERSION WITH NO DISCONNECTION AS WHILE(CLIENT.CONNECTED) IS ADDED AT THE LOOP TO RECEIVE BUFFERS AND CV2.IMSHOW IS ALSO IS ADDED INSTEAD OF default window used to show image in previous version. hope u will star fork and subscribe my youtube channel as 100s are visiting but 14 stars 11 forks and 0 subscriber and viewing hours on youtube channel in response of my repositories.
 
 # POSTED on 20-03-2022
 
