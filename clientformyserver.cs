@@ -6,7 +6,6 @@ using System.Collections;
 using System.Threading;
 using System.IO;
 using OpenCvSharp;
-//using LibVLCSharp.Shared;
 using System.Linq;
 using System.Text;
 
