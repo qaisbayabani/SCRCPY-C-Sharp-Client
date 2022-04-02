@@ -37,10 +37,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.bytedeco.javacv.AndroidFrameConverter;
-import org.bytedeco.javacv.Frame;
-import org.bytedeco.javacv.OpenCVFrameConverter;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.FileDescriptor;
@@ -56,8 +52,6 @@ import java.nio.channels.WritableByteChannel;
 
 public class Sra6 extends AppCompatActivity {
 
-    private AndroidFrameConverter converterToBitmap;
-    private OpenCVFrameConverter.ToMat converterToMat;
     LocalSocket videoSocket;
     Button toggleRecording;
     EditText b2;
