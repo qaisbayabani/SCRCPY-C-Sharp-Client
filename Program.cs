@@ -1,17 +1,10 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Diagnostics;
-using System.Collections;
 using System.Threading;
 using System.IO;
 using OpenCvSharp;
-//using LibVLCSharp.Shared;
-using System.Linq;
-using System.Text;
-
-
-
 
 class Program
 {
@@ -24,28 +17,11 @@ class Program
 
         ForFun2 fun2 = new ForFun2();
 
-                Thread ti = new Thread(new ThreadStart(() => fun.Fun()));
-                ti.Start();
+        Thread ti = new Thread(new ThreadStart(() => fun.Fun()));
+        ti.Start();
 
-                Thread ti2 = new Thread(new ThreadStart(() => fun2.Fun2()));
-                ti2.Start();
-
-    //    Thread ti3 = new Thread(new ThreadStart(() => ForFun3.Fun3())); ti3.Start();
-
-
-        //Console.WriteLine("Press ESC to stop");
-        do
-        {
-            while (!Console.KeyAvailable)
-            {
-                // Do something
-
-                Window.DestroyAllWindows();            
-            
-            }
-        } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-
-
+        Thread ti2 = new Thread(new ThreadStart(() => fun2.Fun2()));
+        ti2.Start();
 
     }
 
@@ -69,7 +45,16 @@ class Program
 
             process = new Process();
             ps.FileName = "adb.exe ";
-            ps.Arguments = "connect " + "192.168.0.2";
+            ps.Arguments = "disconnect ";
+            process.StartInfo = ps;
+            process.Start();
+            Console.WriteLine(process.StandardOutput.ReadToEnd());
+            Console.WriteLine(process.StandardError.ReadToEnd());
+            process.Close(); process.Dispose();
+
+            process = new Process();
+            ps.FileName = "adb.exe ";
+            ps.Arguments = "connect " + "127.0.0.1:5555";
             process.StartInfo = ps;
             process.Start();
             Console.WriteLine(process.StandardOutput.ReadToEnd());
@@ -79,15 +64,6 @@ class Program
             process = new Process();
             ps.FileName = "adb.exe ";
             ps.Arguments = "reverse " + "--remove-all";
-            process.StartInfo = ps;
-            process.Start();
-            Console.WriteLine(process.StandardOutput.ReadToEnd());
-            Console.WriteLine(process.StandardError.ReadToEnd());
-            process.Close(); process.Dispose();
-
-            process = new Process();
-            ps.FileName = "adb.exe ";
-            ps.Arguments = "forward " + "--remove-all";
             process.StartInfo = ps;
             process.Start();
             Console.WriteLine(process.StandardOutput.ReadToEnd());
@@ -111,26 +87,22 @@ class Program
             Console.WriteLine(process.StandardError.ReadToEnd());
             process.Close(); process.Dispose();
 
-                       process = new Process();
+            process = new Process();
             ps.FileName = "adb.exe ";
-            ps.Arguments = "shell " + "CLASSPATH=/data/local/tmp/scrcpy-server " +
-         "app_process " + "/ " + "com.genymobile.scrcpy.Server " +
-        "1.12.1 " + "512 " + "8000000 " + "0 " + "false " + "- " + "false " + "false";
+            ps.Arguments = "shell " + "CLASSPATH=/data/local/tmp/scrcpy-server.jar " +
+          "app_process " + "/ " + "com.genymobile.scrcpy.Server " +
+         "1.13 " + "512 " + "8000000 " + "0 " + "1 " + "false " + "- " + "false " + "false" + " 0";
             process.StartInfo = ps; process.Start();
             Console.WriteLine(process.StandardError.ReadToEnd());
             Console.WriteLine(process.StandardOutput.ReadToEnd());
             Console.WriteLine(process.StandardOutput.ReadToEnd());
             process.WaitForExit(); process.Close(); process.Dispose();
 
-
-
         }
-
     }
 
     class ForFun
     {
-
         public void Fun()
         {
 
@@ -149,72 +121,49 @@ class Program
             TcpClient client2 = null;
             NetworkStream stream2 = null;
 
-            //byte[] bb1 = new byte[4];
-
-            byte[] bb2 = new byte[64];
-
-            byte[] bb3 = new byte[4];
-
-            //byte[] bb5 = new byte[40];
-
             byte[] bb4 = new byte[12];
-            byte[] bb5 = new byte[6];
-
-
 
             try
             {
 
                 server.Start();
                 server2.Start();
-                
-                
+
+
                 while (true)
                 {
 
                     Console.WriteLine("Waiting for a connection Server No.1---------- ");
                     client = server.AcceptTcpClient();
+
                     Console.WriteLine("Connected!========>1");
                     stream = client.GetStream();
 
                     BufferedStream bf = new BufferedStream(stream);
-
-                    bf.Read(bb2, 0, bb2.Length);
-
-                    Console.WriteLine(System.Text.Encoding.ASCII.GetString(bb2, 0, bb2.Length));
-
-
-                    bf.Read(bb3, 0, bb3.Length);
-                    Console.WriteLine(System.Text.Encoding.ASCII.GetString(bb3, 0, bb3.Length));
-
-                    
                     Console.Write("Waiting for a connection Server No.2---------- ");
 
+                    Thread ti3 = new Thread(new ThreadStart(() => ForFun3.Fun3())); ti3.Start();
 
-                    Thread ti3 = new Thread(new ThreadStart(() => ForFun3.Fun3()));ti3.Start();
 
-                    
                     client2 = server2.AcceptTcpClient();
                     Console.WriteLine("Connected!========>2");
-
                     stream2 = client2.GetStream();
-
-                    
                     BufferedStream bf2 = new BufferedStream(stream2);
 
 
-                    bf.Read(bb4, 0, bb4.Length);
-                    while (bf.Read(bb4, 0, bb4.Length)>0)
+                    while (true)
                     {
-                    
-                        bf.Flush();
-                        bf2.Flush();
+                        while (client.Connected)
+                        {
+                            if (bf.Read(bb4, 0, bb4.Length) > -1)
+                            {
+                                bf2.Write(bb4, 0, bb4.Length);
+                            }
+                        }
 
-                        bf2.Write(bb4, 0, bb4.Length);
-                                        
+
 
                     }
-
                 }
 
             }
@@ -240,22 +189,24 @@ class Program
 
             finally
             {
-                // Stop listening for new clients.
+
                 server.Stop();
                 server2.Stop();
             }
 
+            if (stream != null)
+            {
 
-            stream.Flush();
-            stream.Close();
-            stream2.Flush();
-            stream2.Close();
-            client.Close();
-            client2.Close();
-            server.Stop();
-            server2.Stop();
+                stream.Flush();
+                stream.Close();
+                stream2.Flush();
+                stream2.Close();
+                client.Close();
+                client2.Close();
+                server.Stop();
+                server2.Stop();
 
-
+            }
 
 
 
@@ -284,14 +235,6 @@ class Program
             process.Close(); process.Dispose();
 
 
-            process = new Process();
-            ps.FileName = "adb.exe ";
-            ps.Arguments = "forward " + "--remove-all";
-            process.StartInfo = ps;
-            process.Start();
-
-            Console.WriteLine(process.StandardOutput.ReadToEnd());
-            Console.WriteLine(process.StandardError.ReadToEnd());
 
             process.Close(); process.Dispose();
 
@@ -313,51 +256,38 @@ class Program
         }
     }
 
-    class ForFun3{
+    class ForFun3
+    {
 
-    public static void Fun3() {
 
-
-        VideoCapture capture = null;
-
-        capture = new VideoCapture("tcp://127.0.0.1:27184");
-
-        int sleepTime = (int)Math.Round(1000/ capture.Fps);
-
-        using (var window = new Window("capture", WindowMode.KeepRatio))
+        public static void Fun3()
         {
+
+            VideoCapture capture = new VideoCapture("tcp://127.0.0.1:27184");
+
             Mat image = new Mat();
-               
-                while (true)
+            
+            while (true)
             {
 
+                image = capture.RetrieveMat();
 
-                Found:
-
-
-                    capture.Read(image); 
-                
-                if (image.Empty())
+               
+                try
                 {
-                    Console.WriteLine("Empty");
-                        goto Found;
+
+                    Cv2.ImShow("window", image);
+
+                    
 
                 }
+                catch (Exception e) { }
 
-                    try
-                    {
-                    
-                        window.ShowImage(image);
-                        
-                   
-                    }
-                    catch (Exception e) { }
+                Cv2.WaitKey(1);
 
-                Cv2.WaitKey(sleepTime);
 
             }
         }
     }
 
-}
 }
