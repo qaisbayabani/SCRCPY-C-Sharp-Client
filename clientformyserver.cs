@@ -84,6 +84,7 @@ class Program
                     Console.Write("Waiting for a connection Server No.2---------- ");
 
 
+                    Thread ti3 = new Thread(new ThreadStart(() => ForFun3.Fun3())); ti3.Start();
 
                     client2 = server2.AcceptTcpClient();
                     Console.WriteLine("Connected!========>2");
