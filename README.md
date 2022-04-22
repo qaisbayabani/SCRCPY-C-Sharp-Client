@@ -1,3 +1,9 @@
+# Client for myserver contained a missing code
+
+https://github.com/qaisbayabani/SCRCPY-C-Sharp-Client/blob/cda32f229335108ab5db0abc64b417b5deb9af45/clientformyserver.cs#L87
+
+added on 23042022 sorry for inconvinience
+
 # https://github.com/qaisbayabani?tab=repositories
 
 # POSTED ON 03.04.2022 PUBLISHED MY INSTALABLE APP SERVER FOR CAPTURE, ENCODE AND STREAM/MIRROR/CAST THE SCREEN AS SRA6.JAVA A SINGLE FILE DOING ALL SAID TASKS FLAWLESSLY. ALSO DOMONSTRATE THE LAYOUT WITHOUT XML OR ANY JUMBLED CLASSES AND WITH NO USE OF ANY ADB COMMAND as in clientformyserver.cs now you dont have to debug my app or screenstream.exe to steal the code inside have it now and have fun.
