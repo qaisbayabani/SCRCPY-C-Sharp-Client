@@ -1,3 +1,5 @@
+$ ATLEAST ASK IF YOU HAVE AN ISSUE I HAVE FIXED LAST ERROR MYSELF JUST MISTAKENLY DELETED A LINE AND UPLOADED NOW FIXED ON 23042022
+
 # Client for myserver contained a missing code
 
 https://github.com/qaisbayabani/SCRCPY-C-Sharp-Client/blob/cda32f229335108ab5db0abc64b417b5deb9af45/clientformyserver.cs#L87
