@@ -19,7 +19,9 @@ added on 23042022 sorry for inconvinience
 
 a single .java and a single .cs file of code to mirror
 
-#THE CLIENT SOFTWARE FOR PC IS AVAILABLE AT https://drive.google.com/drive/folders/1r_LA68Z6VhngRPkxmYOeKw0XoLcJ8Epw?usp=sharing RUN RECEIVESTREAM.EXE FIRST AND THAN TYPE THE IP ADDRESS DISPLAYED IN IT TO THE APP TEXTFIELD AND ENJOY U CAN ALSO YOU CAN STEAL ITS CODE BY DEBUG
+
+
+
 
 # POSTED BEFORE 20-03-2022 SCRCPY-CSharp-Client
 
