@@ -44,3 +44,9 @@ https://www.youtube.com/results?search_query=qaisbayabanni
 clientformyserver.cs contain PC client for the server written by me
 
 
+sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client without using ADB commands. This server has tehnically killed the SCRCPY
+
+debug.apk is app compiled in result of sra6.java
+
+android layouts without using xml is also a feature of sra6.java
+
