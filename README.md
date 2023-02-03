@@ -45,7 +45,7 @@ clientformyserver.cs contain PC client for the server written by me
 
 pc server port opening and connecting to mobile phoen port and converting the received Mobile phone screen caputred to image again on PC is main aim of clientformyserver.cs
 
-sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client without using ADB commands. This server has tehnically killed the SCRCPY
+sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options
 
 debug.apk is app compiled in result of sra6.java
 
