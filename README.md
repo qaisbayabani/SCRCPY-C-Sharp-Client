@@ -23,7 +23,7 @@ enjoy
 
 install nuget package opencv sharp and opencv runtime from visual studio (2019 cummunity at my side).
 
-download scrcpy-server-v1.13 from https://github.com/Genymobile/scrcpy/releases?q=1.13&expanded=true and rename it as scrcpy-server put in your visual studio projects bin/debug
+put scrcpy-server-v1.13 in your visual studio projects bin/debug
 
 download android sdk plateform tools from https://developer.android.com/studio/releases/platform-tools and unzip or copy all files in visual studio projects bin/debug
 
