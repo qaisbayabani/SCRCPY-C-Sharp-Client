@@ -52,3 +52,5 @@ debug.apk is app compiled in result of sra6.java
 android layouts without using xml is also a feature of sra6.java
 
 multithreaded java server on mobile phone is a feature of sra6.java
+
+scrcpy-server is scrcpy server 1.13
