@@ -54,7 +54,14 @@ class Program
 
             process = new Process();
             ps.FileName = "adb.exe ";
+    
+            
+            /////CHANGE THE IP ADRESS TO YOUR PHONE IP ADDRESS
+            
             ps.Arguments = "connect " + "127.0.0.1:5555";
+            
+            
+            
             process.StartInfo = ps;
             process.Start();
             Console.WriteLine(process.StandardOutput.ReadToEnd());
