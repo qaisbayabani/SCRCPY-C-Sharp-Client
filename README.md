@@ -1,6 +1,15 @@
-program.cs contain code to push an scrcpy-server to mobile phone with adb commands 
+program.cs contain code to push an scrcpy-server to mobile phone with adb commands and than running server processes to control the stream sent by mobile phone and recovnert it to movie.
 
-just change the ip in line No.
+in program.cs just change the ip in line No.57  to your mobile ip address. 
+
+ps.Arguments = "connect " + "127.0.0.1:5555"; to your mobile ip address.
+
+TURN ON DEVELOPER OPTIONS ON YOUR MOBILE TO USE SCRCPY
+
+
+IF UYOU WANT TO DO IT WITHOUT DEVELOPER OPTIONS THAN
+
+A pc client and mobile phone server is written by me is consists of two following files
 
 clientformyserver.cs contain PC client
 
