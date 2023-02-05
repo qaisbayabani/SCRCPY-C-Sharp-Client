@@ -13,7 +13,7 @@ A pc client and mobile phone server is written by me is consists of two followin
 
 clientformyserver.cs contain PC client
 
-sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options
+sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options AND ALSO DOING MIRROR WIRELESSLY
 
 debug.apk is app compiled in result of sra6.java
 
