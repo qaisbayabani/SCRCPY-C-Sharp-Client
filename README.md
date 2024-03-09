@@ -1,7 +1,7 @@
 
 # DONT FORGET TO STAR
 
-program.cs contain code to push an scrcpy-server to mobile phone with adb commands and than running server processes to control the stream sent by mobile phone and recovert it to movie.
+program.cs contain code to push an scrcpy-server to mobile phone with adb commands and than running server processes to control the stream sent by mobile phone and reconvert it to movie.
 
 in program.cs just change the ip in line No.57  to your mobile ip address. 
 
