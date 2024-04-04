@@ -1,7 +1,7 @@
 
 # DONT FORGET TO STAR
 
-#MY SERVER WORKS FOR ANDROID 8 SDK 27 FOR SDK 28 TO 34 ANDROID 9 TO 14 THE TECHNIQUE IS TOTALLY DIFFERENT AND IS AVAILABLE ON REQUEST.
+#MY SERVER SRA6.JAVA WORKS FOR ANDROID 8 SDK 27 FOR SDK 28 TO 34 ANDROID 9 TO 14 THE TECHNIQUE IS TOTALLY DIFFERENT AND IS AVAILABLE ON REQUEST.
 
 program.cs contain code to push an scrcpy-server to mobile phone with adb commands and than running server processes to control the stream sent by mobile phone and reconvert it to movie.
 
