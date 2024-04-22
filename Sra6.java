@@ -83,9 +83,9 @@ public class Sra6 extends AppCompatActivity {
 
         requestWindowFeature(Window.FEATURE_ACTION_BAR);
 
-        converterToBitmap = new AndroidFrameConverter();
-        converterToMat = new OpenCVFrameConverter.ToMat();
-
+        //converterToBitmap = new AndroidFrameConverter();
+        //converterToMat = new OpenCVFrameConverter.ToMat();
+//for another tech to draw strike out 2342024
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         toggleRecording = new Button(this);
