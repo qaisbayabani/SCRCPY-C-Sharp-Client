@@ -67,12 +67,13 @@ Solved not published because Business is business and a cup of tea is a cup of t
 
 A pc client and mobile phone server is written by me is consists of two following files
 
-# clientformyserver.cs contain PC client
+ clientformyserver.cs contain PC client
 
-# sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options.
+# Sra6.java is using A Mobile trying to connect to a server running on PC.
+
+ sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options.
 
 
-# Sra6.java is using Mobile trying to connect to a server running on PC.
 
 # MY SERVER SRA6.JAVA WORKS FOR ANDROID 8 SDK 27. FOR SDK 28 TO 34 ANDROID 9 TO 14 THE TECHNIQUE IS TOTALLY DIFFERENT AND IS AVAILABLE ON REQUEST.
 
