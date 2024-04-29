@@ -1,9 +1,5 @@
 
 
-# Challenge I ( Mobile trying to connect to a server running on PC vs   running a server on Mobile and wait for pc client)
-Solved not published because Business is business and a cup of tea is a cup of tea.
-# Challenge II (Run it on all above version of android 10 to 14)
-Solved not published because Business is business and a cup of tea is a cup of tea.
 
 https://www.youtube.com/results?search_query=qaisbayabanni
 
@@ -58,6 +54,14 @@ enjoy
 
 
 # ARTICLE DOWN IS NOT RELTAED TO SCRCPY
+
+# Works only for Android Version 8 below if needs for above. request!
+
+# Challenge I ( A Mobile is trying to connect to a server running on PC vs  running a server on Mobile and wait for PC as client)
+Solved not published because Business is business and a cup of tea is a cup of tea.
+# Challenge II (Run it on all above version of android 10 to 14)
+Solved not published because Business is business and a cup of tea is a cup of tea.
+
 
 # IF YOU WANT TO DO IT WITHOUT DEVELOPER OPTIONS THAN
 
