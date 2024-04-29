@@ -1,31 +1,24 @@
 
-# THIS PROJECT IS NOW CONVERTED INTO A DIFFERENT TECH THAT WE CAN NOW RUN A SERVER ON MOBILE AND THAN WAIT FROM THE OTHER WORLD TO CONNECT TO THE SERVER AND OTHER ISSUES I HAVE ADDRESSED THAT ON HIGHER VERSIONS OF ANDROID NEEDSA A RUUNING SERVICE WHILE IN THIS VERSION OF SRA6.JAVA AS SOON AS WE PRESS THE BUTTON TO STREAM THAN THIS PROGRAM TRY TO CONNECT TO A SERVER. NOW WE HAVE TWO SCENES (1- Mobile trying to connect a server vs 2- Mobile running a server and wait for the toher to connect) So the solution i made did it worth to publish as in preceeding years deputation i got 30 stars till 29.04.2024. so the challenge is for you to ------run the server on mobile----make a program by modify the screenstream.exe and this will work on internet vide a static ip. BUSINESS IS BUSINESS, AND A CUP OF TEA IS A CUP OF TEA. 
+
+# Challenge I ( Mobile trying to connect to a server running on PC vs   running a server on Mobile and wait for pc client)
+Solved not published because Business is business and a cup of tea is a cup of tea.
+# Challenge II (Run it on all above version of android 10 to 14)
+Solved not published because Business is business and a cup of tea is a cup of tea.
+
+https://www.youtube.com/results?search_query=qaisbayabanni
 
 # DONT FORGET TO STAR
 
-# MY SERVER SRA6.JAVA WORKS FOR ANDROID 8 SDK 27. FOR SDK 28 TO 34 ANDROID 9 TO 14 THE TECHNIQUE IS TOTALLY DIFFERENT AND IS AVAILABLE ON REQUEST.
+a single file program.cs converting smooth capture from scrcpy-server to c# client
 
 # program.cs contain code to push an scrcpy-server to mobile phone with adb commands and than running server processes to control the stream sent by mobile phone and reconvert it to movie.
 
 # in program.cs just change the ip in line No.57  to your mobile ip address. 
 
+
 ps.Arguments = "connect " + "127.0.0.1:5555"; to your mobile ip address.
 
 TURN ON DEVELOPER OPTIONS ON YOUR MOBILE TO USE SCRCPY
-
-multithreading
-
-a single file program.cs converting smooth capture from scrcpy-server to c# client
-
-adb commands using c#
-
-server port opening
-
-reading server received data and forwarding the stream to other port.
-
-opencv capture from network stream and decode H264 stream from android screen capture.
-cross plateform stuff.
-enjoy
 
 install nuget package opencv sharp and opencv runtime from visual studio (2022 cummunity at my side).
 
@@ -42,6 +35,27 @@ run
 may have to change the adb commands according to your own environment.
 
 
+# The code in program.cs covers the following subject is C# programming language.
+
+multithreading
+
+
+adb commands using c#
+
+server port opening
+
+reading server received data and forwarding the stream to other port.
+
+
+
+opencv capture from network stream and decode H264 stream from android screen capture.
+
+cross plateform stuff.
+
+enjoy
+
+
+
 
 # ARTICLE DOWN IS NOT RELTAED TO SCRCPY
 
@@ -52,6 +66,12 @@ A pc client and mobile phone server is written by me is consists of two followin
 # clientformyserver.cs contain PC client
 
 # sra6.java contain server written by me delivering screen capture of mobile phone screen TO the pc client WIOTHOUT USING ADB OR DEVELOPER OPTIONS OF MOBILE. This server has teChnically killed the SCRCPY which needs ADB/Developer Options.
+
+
+# Sra6.java is using Mobile trying to connect to a server running on PC.
+
+# MY SERVER SRA6.JAVA WORKS FOR ANDROID 8 SDK 27. FOR SDK 28 TO 34 ANDROID 9 TO 14 THE TECHNIQUE IS TOTALLY DIFFERENT AND IS AVAILABLE ON REQUEST.
+
 
 debug.apk is app compiled in result of sra6.java
 
@@ -75,6 +95,5 @@ it covers.
 
 Subscribe and View my Channel plz.
 
-https://www.youtube.com/results?search_query=qaisbayabanni
 
 
